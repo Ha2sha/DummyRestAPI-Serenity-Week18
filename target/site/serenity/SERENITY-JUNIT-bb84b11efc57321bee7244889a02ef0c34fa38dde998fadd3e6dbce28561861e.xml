@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="com.restapiexample.userinfo.EmployeeCURDTestWithSteps" skipped="0" tests="4" time="2.23" timestamp="2022-06-05T01:13:16.866+01:00[Europe/London]"><testcase classname="com.restapiexample.userinfo.EmployeeCURDTestWithSteps" name="This will create a new employee"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.userinfo.EmployeeCURDTestWithSteps.test001(EmployeeCURDTestWithSteps.java:32)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.userinfo.EmployeeCURDTestWithSteps" name="Verify if the employee was added to the application employee_name = Brielle Williamson"/><testcase classname="com.restapiexample.userinfo.EmployeeCURDTestWithSteps" name="Update the employee information and verify the updated information for ID=5"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.userinfo.EmployeeCURDTestWithSteps.test003(EmployeeCURDTestWithSteps.java:51)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.userinfo.EmployeeCURDTestWithSteps" name="Delete the employee and verify if the employee is deleted! for ID=2"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.userinfo.EmployeeCURDTestWithSteps.test004(EmployeeCURDTestWithSteps.java:58)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Employee CURD test with steps","This will create a new employee","FAILURE","2022-06-05T01:13:16.866+01:00[Europe/London]","0.0","0.68"
+"Employee CURD test with steps","Update the employee information and verify the updated information for ID=5","FAILURE","2022-06-05T01:13:18.141+01:00[Europe/London]","0.0","0.48"
+"Employee CURD test with steps","Delete the employee and verify if the employee is deleted! for ID=2","FAILURE","2022-06-05T01:13:18.631+01:00[Europe/London]","0.0","0.51"

@@ -1,0 +1,3 @@
+com\restapiexample\testbase\TestBase.class
+com\restapiexample\userinfo\EmployeeCURDTestWithSteps.class
+com\restapiexample\userinfo\EmployeeCURDTest.class

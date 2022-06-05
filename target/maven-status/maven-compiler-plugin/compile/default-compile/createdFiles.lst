@@ -1,0 +1,6 @@
+com\restapiexample\employeeinfo\EmployeeSteps.class
+com\restapiexample\utils\TestUtils.class
+com\restapiexample\constants\EndPoints.class
+com\restapiexample\model\EmployeePojo.class
+com\restapiexample\constants\Path.class
+com\restapiexample\utils\PropertyReader.class
